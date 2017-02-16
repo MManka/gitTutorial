@@ -3,10 +3,16 @@
  */
 public class Student extends Person {
     String major;
+    List<Course> courseList;
 
     public Student(String name, String emailAddress, String major) {
         super(name, emailAddress);
         this.major = major;
+    }
+
+    public void addCourse(Course c)
+    {
+
     }
 
     public String toString() {
